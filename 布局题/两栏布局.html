@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+
+    <style>
+        /* .box {
+            overflow: hidden;
+        }
+
+        .left {
+            float: left;
+            width: 200px;
+            height: 400px;
+            background-color: green;
+        }
+
+        .right {
+            margin-left: 201px;
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        } */
+
+        /* flex */
+        /* .box {
+            display: flex;
+        }
+
+        .left {
+            width: 200px;
+            height: 400px;
+            background-color: green;
+        }
+
+        .right {
+            flex: 1;
+            background-color: blue;
+        } */
+
+        /* grid */
+        .box {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+
+        }
+
+        .left {
+            width: 200px;
+            height: 400px;
+            background-color: green;
+        }
+
+        .right {
+            background-color: blue;
+        }
+    </style>
+</body>
+
+</html>

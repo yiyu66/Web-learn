@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 两边使用 float，中间使用 margin
+    两边使用 absolute，中间使用 margin
+    两边使用 float 和负 margin
+    display: table 实现
+    flex实现
+    grid网格布局 -->
+    <style>
+        .box {
+            background-color: #eee;
+            overflow: hidden;
+        }
+
+        .left {
+            width: 200px;
+            height: 200px;
+            background: coral;
+            float: left;
+        }
+
+        .right {
+            width: 100px;
+            height: 200px;
+            background: coral;
+            float: right;
+        }
+
+        .middle {
+            margin-left: 201px;
+            margin-right: 101px;
+            height: 200px;
+            background: blue;
+        }
+    </style>
+    <div class="box">
+        <div class="left">左侧</div>
+        <div class="right">右侧</div>
+        <div class="middle">中间</div>
+    </div>
+
+
+    <style>
+        .container {
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        .left1,
+        .right1,
+        .main {
+            display: table-cell;
+        }
+
+        .left1,
+        .right1 {
+            width: 100px;
+            background: green;
+        }
+
+        .main {
+            background: black;
+            color: white;
+            width: 100%;
+        }
+    </style>
+
+    <div class="container">
+        <div class="left1">左边固定宽度</div>
+        <div class="main">中间自适应</div>
+        <div class="right1">右边固定宽度</div>
+    </div>
+    <!-- flex -->
+    <style type="text/css">
+        .wrap {
+            display: flex;
+            /* justify-content: space-between; */
+            margin-top: 20px;
+        }
+
+        .left2,
+        .right2,
+        .middle2 {
+            height: 200px;
+        }
+
+        .left2 {
+            width: 200px;
+            background: coral;
+        }
+
+        .right2 {
+            width: 120px;
+            background: lightblue;
+        }
+
+        .middle2 {
+            background: #555;
+            /* width: 100%; */
+            flex: 1;
+            margin: 0 20px;
+        }
+    </style>
+    <div class="wrap">
+        <div class="left2">左侧</div>
+        <div class="middle2">中间</div>
+        <div class="right2">右侧</div>
+    </div>
+</body>
+
+</html>

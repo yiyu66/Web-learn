@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container1">
+        <div style="width: 30px;height: 30px;background-color: black;"></div>
+    </div>
+
+    <div class="BFC">
+        <div id="container2">
+            <div class="box2"></div>
+        </div>
+    </div>
+    <div id="container3">
+        <div class="box3"></div>
+    </div>
+    <div id="container4">
+        <div class="box4"></div>
+    </div>
+    <div id="container5">
+        <div class="box5"></div>
+    </div>
+    <style>
+        .BFC {
+            overflow: hidden;
+            /* display: inline-block; */
+            /* display: table-cell; */
+            /* display: flex; */
+            /* float: left;  */
+            /* float不为none */
+            /* position不为relative和static */
+            /* position: absolute; */
+        }
+
+        #container1 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container2 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .box2 {
+            width: 30px;
+            height: 30px;
+            /* static | relative | absolute | sticky | fixed */
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black;
+        }
+
+        #container3 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+        }
+
+        .box3 {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            background-color: black;
+        }
+
+        #container4 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+        }
+
+        .box4 {
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            background-color: black;
+            margin: -15px;
+        }
+
+        #container5 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            display:grid;
+            place-items: center;
+            background-color: red;
+        }
+
+        .box5 {
+            width: 30px;
+            height: 30px;
+            background-color: black;
+        }
+    </style>
+</body>
+
+</html>

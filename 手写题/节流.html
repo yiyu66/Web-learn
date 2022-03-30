@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>节流</div>
+    <script>
+        /**
+        使用时间戳，当触发事件的时候，我们取出当前的时间戳，然后减去之前的时间戳(最一开始值设为 0 )，
+        如果大于设置的时间周期，就执行函数，然后更新时间戳为当前的时间戳，如果小于，就不执行。
+        */
+        function throttle(func, wait) {
+            let start = 0
+            return function () {
+                const now = Date.now()
+                if (now - start > wait) {
+                    func()
+                    start = now
+                }
+            }
+        }
+        document.body.addEventListener('mousemove', throttle((e) => {
+            console.log(this, e, 'mousemove-throttle')
+        }, 1000))</script>
+
+</body>
+
+</html>

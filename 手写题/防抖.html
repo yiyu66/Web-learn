@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>123</div>
+    <script>
+        // 防抖事件高频触发后，n秒内函数只会执行一次，
+        // 若n秒内事件再次触发，则重新计时，
+        // 总之就是要等触发完事件 n 秒内不再触发事件，函数才执行
+        function debounce(cb, wait) {
+            let timer = null
+            return function () {
+                clearTimeout(timer);
+                timer = setTimeout(cb, wait);
+            }
+        }
+        document.body.addEventListener('mousemove', debounce((e) => {
+            console.log(this, e, 'mousemove-debounce')
+        }, 1000))</script>
+</body>
+
+</html>
