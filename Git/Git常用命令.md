@@ -42,6 +42,7 @@ docs: 文档修改
 style: 代码格式修改, 注意不是 css 修改
 test: 测试用例修改
 chore: 其他修改, 比如构建流程, 依赖管理
+`git commit -m 'fix(wx-pay): 提交示例(#111)'//这里的111要对应项目上的issue编号`
 
 ## 分支操作
 
