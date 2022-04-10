@@ -5,5 +5,6 @@
 ```html
     <div style=" height:50px;background-color:red">div</div>
     <span style="display:block;height: 50px">demo</span>
-    <div style=" height:50px;background-color:red">div</div>
+    <div style="height:50px;background-color:red">div</div>
+    
 ```
