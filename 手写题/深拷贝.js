@@ -46,15 +46,6 @@ function deepClone(obj, cache = new Map()) {
   }
   return newObj
 }
-function clone2(target) {
-  if (typeof target === "object") {
-    let cloneTarget = {};
-    for (const key in target) {
-      cloneTarget[key] = clone2(target[key]);
-    }
-    return cloneTarget;
-  } else return target;
-}
 
 function clone3(target) {
   if (typeof target === "object" && target !== null) {
@@ -67,7 +58,20 @@ function clone3(target) {
     return target;
   }
 }
-let ans1 = clone3(target);
+
+
+function clone4(target) {
+  if (typeof target === "object" && target !== null) {
+    let clonetarget = Array.isArray(target) ? [] : {}
+    for (const key in target) {
+      clonetarget[key] = clone4(target[key])
+    }
+    return clonetarget
+  } else {
+    return target
+  }
+}
+let ans1 = clone4(target);
 console.log();
 // ans1.field4.child = 2;
 console.log(ans1);

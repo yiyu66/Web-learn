@@ -9,15 +9,14 @@ function flatten(arr) {
 
 function flatten(arr) {
     let result = []
-    arr.map(item =>{
+    arr.map(item => {
         if (Array.isArray(item)) {
             result = result.concat(flatten(item))
-        }else{
+        } else {
             result.push(item)
         }
     })
     return result
 }
 
-
-console.log(flatten(array));
+console.log(flatten(array, 1));
