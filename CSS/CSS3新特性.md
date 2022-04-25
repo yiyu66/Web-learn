@@ -42,8 +42,8 @@
 
 ## transition 过渡
 
-`transition： CSS属性，花费时间，效果曲线(默认ease)，延迟时间(默认0)
-`
+`transition`： CSS属性，花费时间，效果曲线(默认ease)，延迟时间(默认0)
+
 也可以分开写
 
 ```css

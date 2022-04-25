@@ -53,4 +53,10 @@
     flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }
+单值语法   等同于                备注
+flex:   initial flex: 0 1 auto  初始值，常用
+flex:   0 flex: 0 1 0%          适用场景少
+flex:   none flex: 0 0 auto     推荐
+flex:   1 flex: 1 1 0%          推荐
+flex:   auto flex: 1 1 auto     适用场景少
 ```
