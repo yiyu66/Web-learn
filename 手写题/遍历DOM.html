@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深度优先遍历dom</title>
+</head>
+
+<body>
+    <div id="app">
+        <span>123</span>
+        <span>321</span>
+    </div>
+    <div>
+        <input type="text">
+    </div>
+    <script>
+        const html = document.documentElement
+        console.log(html.nodeName);
+        // 遍历dom节点
+        const getNode = (root) => {
+            let list = []
+            const dfs = (root) => {
+                if (!root) return null;
+                list.push(root)
+                // list.push(root.nodeName) // 如果要遍历标签类型用这个，然后去个重
+                if (root.children) {
+                    for (const item of root.children) {
+                        dfs(item)
+                    }
+                }
+            }
+            dfs(root)
+            return list
+        }
+        // 遍历dom节点并打印遍历路径
+        const getNodePath = (root) => {
+            let list = []
+
+            const dfs = (root, path) => {
+                if (!root) return null;
+                path += root.nodeName
+                if (root.children.length !== 0) {
+                    // console.log(root.children);
+                    for (const item of root.children) {
+                       let temp = path + '->'
+                        dfs(item, temp)
+                    }
+                } else {
+                    list.push(path)
+                }
+            }
+
+            dfs(root, '')
+            return list
+        }
+        // let arr = [...new Set(getNode(html))]
+        console.log(getNodePath(html));
+    </script>
+</body>
+
+</html>
