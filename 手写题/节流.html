@@ -17,15 +17,29 @@
         */
         function throttle(func, wait) {
             let start = 0
-            return function () {
+            return function (...args) {
                 const now = Date.now()
                 if (now - start > wait) {
-                    func()
+                    func.apply(null, args)
                     start = now
                 }
             }
         }
-        document.body.addEventListener('mousemove', throttle((e) => {
+        //节流(立即执行)
+        function throttle_2(fn, wait) {
+            var flag = true;
+            return function (...arg) {
+                var context = this
+                if (flag) {
+                    fn.apply(context, arg);
+                    flag = false;
+                    setTimeout(() => {
+                        flag = true
+                    }, wait)
+                }
+            }
+        }
+        document.body.addEventListener('mousemove', throttle_2((e) => {
             console.log(this, e, 'mousemove-throttle')
         }, 1000))</script>
 

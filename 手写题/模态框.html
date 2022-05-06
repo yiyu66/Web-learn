@@ -1,0 +1,93 @@
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mask {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+
+    #modal {
+        display: none;
+        width: 300px;
+        height: 200px;
+        flex-direction: column;
+        border: 1px solid #000;
+        z-index: 9;
+        background-color: yellow;
+    }
+
+    #modal-header {
+        flex-basis: 20px;
+    }
+
+    #modal-content {
+        flex-grow: 1;
+    }
+
+    #modal-textarea {
+        width: 99%;
+        height: 99%;
+    }
+
+    #modal-footer {
+        flex-basis: 20px;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <button id="openButton">点击评论</button>
+
+        <div id="modal">
+            <div id="modal-header">请输入评论</div>
+
+            <div id="modal-content">
+                <textarea name="" id="modal-textarea"></textarea>
+            </div>
+
+            <div id="model-footer">
+                <button id="closeButton"> 关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="mask"></div>
+
+    <script>
+        let closeBtn = document.querySelector('#closeButton')
+        let openBtn = document.querySelector('#openButton')
+        let modal = document.querySelector('#modal')
+        let mask = document.querySelector('#mask')
+
+        let close = () => {
+            openBtn.style.display = 'block';
+            modal.style.display = 'none';
+            mask.style.display = 'none'
+        }
+
+        let open = () => {
+            openBtn.style.display = 'none';
+            modal.style.display = 'flex';
+            mask.style.display = 'block'
+        }
+
+        closeBtn.addEventListener('click', close);
+        openBtn.addEventListener('click', open)
+    </script>
+</body>
