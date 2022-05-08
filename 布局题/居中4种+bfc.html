@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<!-- 
+    总结：
+                
+    1.父元素设置 display: flex;justify-content: center;align-items: center;
+    2.父元素设置 display: grid; place-items: center;
+    3.子元素设置 position: relative;left: 50%;top: 50%;transform: translate(-50%, -50%);
+    4.父元素不为static,子元素设置position: absolute; top: 50%;left: 50%;
+    5.父元素不为static,子元素设置position: absolute; 
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+ -->
 
 <body>
     <div id="container1">
@@ -26,6 +40,9 @@
     </div>
     <div id="container5">
         <div class="box5"></div>
+    </div>
+    <div id="container6">
+        <div class="box6"></div>
     </div>
     <style>
         .BFC {
@@ -117,6 +134,24 @@
         .box5 {
             width: 30px;
             height: 30px;
+            background-color: black;
+        }
+
+        #container6 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            display: table-cell;
+            vertical-align: middle;
+            /* 行内元素 */
+            text-align: center; 
+            background-color: red;
+        }
+
+        .box6 {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
             background-color: black;
         }
     </style>
