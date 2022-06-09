@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="input" type="text">
+    <span id="span">123</span>
+    <script>
+        let obj = {}
+        let input = document.getElementById('input')
+        let span = document.getElementById('span')
+        // 数据劫持
+        Object.defineProperty(obj, 'text', {
+            configurable: true,
+            enumerable: true,
+            get() {
+                console.log('获取数据了')
+            },
+            set(newVal) {
+                console.log('数据更新了')
+                input.value = newVal
+                span.innerHTML = newVal
+            }
+        })
+        // 输入监听
+        input.addEventListener('keyup', function (e) {
+            obj.text = e.target.value
+        })
+
+    </script>
+</body>
+
+</html>
