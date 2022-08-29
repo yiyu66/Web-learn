@@ -29,13 +29,13 @@ function clone1(target) {
 // 简易版本
 function clone1(target) {
   if (typeof target === "object" && target !== null) {
-    let clonetarget = Array.isArray(target) ? [] : {}
+    let clonetarget = Array.isArray(target) ? [] : {};
     for (const key in target) {
-      clonetarget[key] = clone1(target[key])
+      clonetarget[key] = clone1(target[key]);
     }
-    return clonetarget
+    return clonetarget;
   } else {
-    return target
+    return target;
   }
 }
 /* 最终版本
@@ -47,19 +47,19 @@ function clone2(target, cache = new Map()) {
   if (typeof target !== "object" || target === null) return target;
   // 防止循环引用
   if (cache.get(target)) return cache.get(target);
-  let clonetarget = Array.isArray(target) ? [] : {}
-  cache.set(target, clonetarget)
+  let clonetarget = Array.isArray(target) ? [] : {};
+  cache.set(target, clonetarget);
 
   for (const key in target) {
     if (target.hasOwnProperty(key)) {
       clonetarget[key] = clone2(target[key]);
     }
   }
-  return clonetarget
+  return clonetarget;
 }
 
 console.log(target);
-let ans1 = clone2(target);
+let ans1 = deepClone(target);
 ans1.field4.child = 2;
 console.log(ans1);
 

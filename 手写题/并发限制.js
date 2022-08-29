@@ -1,8 +1,8 @@
 class Scheduler {
-    constructor() {
+    constructor(maxNum) {
         this.queue = [] // 待执行
         this.doingList = []
-        this.maxNum = 2
+        this.maxNum = maxNum
     }
     add(promiseCreator) {
         if (this.doingList.length < this.maxNum) {
@@ -24,7 +24,7 @@ class Scheduler {
     }
 }
 
-const scheduler = new Scheduler()
+const scheduler = new Scheduler(2)
 const addTask = (time, text) => {
     const promiseMaker = () => new Promise(resolve => {
         setTimeout(() => {

@@ -54,9 +54,9 @@ function add(...args) {
 
 var sum = curry(add)
 
-console.log(sum(1)(2)(3)(4, 5).valueOf());
-console.log(sum(1)(2)(3).valueOf());
-console.log(sum(4, 5, 5)(1, 3, 2)(6, 6).valueOf());
+// console.log(sum(1)(2)(3)(4, 5).valueOf());
+// console.log(sum(1)(2)(3).valueOf());
+// console.log(sum(4, 5, 5)(1, 3, 2)(6, 6).valueOf());
 
 
 //写法三，直接针对add写,这是我自己写的，就是需要最后一个是空的()

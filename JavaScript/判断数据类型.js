@@ -1,9 +1,9 @@
 let a = [];
 let b = undefined;
 let c = 'asd';
-// console.log(typeof a);
-// console.log(typeof b);
-// console.log(typeof c);
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
 console.log(a instanceof Array);
 console.log(c instanceof String);
 console.log(Object.prototype.toString.call(a));

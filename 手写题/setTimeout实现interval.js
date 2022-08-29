@@ -12,3 +12,13 @@ interval(() => console.log("long"), 1000);
 // 清除定时器;
 setTimeout(() => clearTimeout(timer), 5000);
 
+
+function mySetInterval(fn, time) {
+  let timer = null;
+  let interval = function () {
+    fn();
+    timer = setTimeout(interval, time);
+  };
+  timer = setTimeout(interval, time);
+  return timer;
+}
