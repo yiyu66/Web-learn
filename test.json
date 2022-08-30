@@ -1,0 +1,791 @@
+{
+  "code": 0,
+  "data": {
+    "job_post_list": [
+      {
+        "id": "7127529256272742670",
+        "title": "前端开发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、负责Pico前端部分开发工作，包括Web、Hybrid、跨端、Node等业务场景；\n2、负责VR设备、智能硬件、用户侧相关前端系统和平台的前端开发工作；\n3、参与相关系统的方案设计、需求把控、拆解细化和实施开发，支撑Pico业务和VR生态快速发展；\n4、参与团队前端工程化体系建设，技术攻关，探索和优化前端团队的开发模式和流程规范，通过前端技术的不断产出驱动业务的发展。",
+        "requirement": "1、2023届获得本科及以上学历，计算机、软件工程等相关专业；\n2、有一定前端基础，熟悉 JS（TS）、CSS、HTTP 等前端技术；\n3、熟悉 React、Vue、Angular 任意一种技术栈；\n4、踏实靠谱，有强烈的自我驱动力、清晰的逻辑思考能力、良好的沟通协调推进能力。",
+        "job_category": {
+          "id": "6704215886108035339",
+          "name": "前端",
+          "en_name": "Frontend",
+          "i18n_name": "前端",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_125",
+          "name": "上海",
+          "en_name": "Shanghai",
+          "location_type": null,
+          "i18n_name": "上海",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659507353000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "T5351",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_125",
+            "name": "上海",
+            "en_name": "Shanghai",
+            "location_type": null,
+            "i18n_name": "上海",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7129765713250257183",
+        "title": "客户端开发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、负责Pico VR业务的客户端研发，编写高质量的代码；\n2、和产品经理配合，深度参与VR各个产品的需求讨论，功能定义等；\n3、设计良好的代码结构，不断迭代重构。",
+        "requirement": "1、2023届获得本科及以上学历，计算机相关专业，VR爱好者和使用者，追求良好的用户体验；\n2、有良好的编程习惯，代码结构清晰，命名规范；\n3、熟练掌握数据结构与算法、计算机网络、操作系统、编译原理等课程；\n4、熟练掌握C++/Java/C#/Kotlin一种或多种语言 ；\n5、充满技术热情，有较强的自驱力和学习能力。",
+        "job_category": {
+          "id": "6704215957146962184",
+          "name": "客户端",
+          "en_name": "Client",
+          "i18n_name": "客户端",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_11",
+          "name": "北京",
+          "en_name": "Beijing",
+          "location_type": null,
+          "i18n_name": "北京",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1660040340000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "X2653",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "location_type": null,
+            "i18n_name": "北京",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127527355001784589",
+        "title": "前端开发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、负责Pico前端部分开发工作，包括Web、Hybrid、跨端、Node等业务场景；\n2、负责VR设备、智能硬件、用户侧相关前端系统和平台的前端开发工作；\n3、参与相关系统的方案设计、需求把控、拆解细化和实施开发，支撑Pico业务和VR生态快速发展；\n4、参与团队前端工程化体系建设，技术攻关，探索和优化前端团队的开发模式和流程规范，通过前端技术的不断产出驱动业务的发展。",
+        "requirement": "1、2023届获得本科及以上学历，计算机、软件工程等相关专业；\n2、有一定前端基础，熟悉 JS（TS）、CSS、HTTP 等前端技术；\n3、熟悉 React、Vue、Angular 任意一种技术栈；\n4、踏实靠谱，有强烈的自我驱动力、清晰的逻辑思考能力、良好的沟通协调推进能力。",
+        "job_category": {
+          "id": "6704215886108035339",
+          "name": "前端",
+          "en_name": "Frontend",
+          "i18n_name": "前端",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_11",
+          "name": "北京",
+          "en_name": "Beijing",
+          "location_type": null,
+          "i18n_name": "北京",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659506830000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "R6711A",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "location_type": null,
+            "i18n_name": "北京",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127923479366240520",
+        "title": "电子研发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、和电学专家密切配合，参与定义下一代AR/VR/MR产品以及元器件的EE架构；\n2、参与关键技术路径探索，研发新型显示、相机、传感器技术等关键元器件的电学需求，IC选型定制以及IP自研；\n3、和光学团队，人因工程团队、产品团队、软件团队以及生产团队密切合作，迭代打磨产品。\n4、与外部供应商密切合作，进行IC定制设计执行和验证。",
+        "requirement": "1、2023届获得硕士及以上学历，微电子、电子工程、物理学或相关技术专业优先；\n2、具有扎实的EE基础、模拟或者数字IC设计背景、数学基础，以及较强的动手、编程以及实际问题的解决能力；\n3、具有良好的沟通表达能力，以及跨团队合作能力；\n4、如有以下经验中的任意一条加分：\n -相关元器件IC设计开发经历（比如显示，相机，传感器等）；\n -熟练掌握一种或以上编程语言，例如Matlab，Python，C/C++等；\n -熟练掌握IC设计仿真软件；\n -有较强的电学理论分析能力或动手能力；有搭建电学系统或原型机的经验。",
+        "job_category": {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "en_name": "Hardware",
+          "i18n_name": "硬件",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_11",
+          "name": "北京",
+          "en_name": "Beijing",
+          "location_type": null,
+          "i18n_name": "北京",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659599055000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "Q4308",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "location_type": null,
+            "i18n_name": "北京",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127924778434480391",
+        "title": "光学研发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、和光学专家密切配合，参与光学设计、仿真、量测，定义下一代AR/VR/MR产品；\n2、参与关键技术路径探索，开发引进新的光学、显示、传感技术，规划未来关键光学器件的选型、定制，以及尝试新型光学架构；\n3、和人因工程团队、产品团队、软件团队以及生产团队密切合作，迭代打磨产品。",
+        "requirement": "1、2023届获得博士学历，光学工程、电子工程、物理学或相关技术专业优先；\n2、具有扎实的光学、物理、数学基础，以及较强的动手、编程以及实际问题的解决能力；\n3、具有良好的沟通表达能力，以及跨团队合作能力；\n4、如有以下经验中的任意一条加分：\n     -熟悉主流的光学计量仪器（如工业相机，色度计，光谱仪等）；\n     -熟练掌握一种或以上编程语言，例如Python，C/C++/CUDA等；\n     -具有实际的光学设计以及实验光路搭建经验；\n     -熟练掌握光学仿真软件或计算电磁学方法（Zemax, Code V或RCWA, FDTD等）；\n     -在光学系统设计、新型显示技术、光学测试、光学元器件制造等方向有经验；\n     -有较强的光学理论分析能力或动手能力；有搭建光学系统或原型机的经验。",
+        "job_category": {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "en_name": "Hardware",
+          "i18n_name": "硬件",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_125",
+          "name": "上海",
+          "en_name": "Shanghai",
+          "location_type": null,
+          "i18n_name": "上海",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659599355000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "G9088",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_125",
+            "name": "上海",
+            "en_name": "Shanghai",
+            "location_type": null,
+            "i18n_name": "上海",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127921974261844231",
+        "title": "材料与仿真研发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、岗位方向：力学方向、热学方向、材料方向；\n2、为下一代的AR/VR/MR的系统架构、材料开发、散热设计、结构仿真提供支持；\n3、与内部各部门和外部行业伙伴合作开发或引进新的材料、热管理、仿真技术；\n4、提出创新的材料/热学性能优化建议，通过仿真与实验验证，推动材料库和仿真平台的搭建和完善，提升产品品质与用户体验。\n5、与供应商合作进行设计执行和验证。",
+        "requirement": "1、2023届获得博士学历，机械工程、计算力学、材料科学、物理学或相关技术专业优先；\n2、根据具体的角色，有在这些领域之一的知识和实践经验：结构设计和公差分析、高分子材料、复合材料力学、断裂力学、Softgoods、有限元仿真、CFD仿真、精密仪器；\n3、有效的口头和书面沟通能力以及人际交往能力；\n4、优秀的批判性思维，和逻辑推理能力，关注细节；\n5、有建立合作关系的经验，能够与团队成员和外部供应商互动沟通，与内部和外部跨职能团队合作。",
+        "job_category": {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "en_name": "Hardware",
+          "i18n_name": "硬件",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_125",
+          "name": "上海",
+          "en_name": "Shanghai",
+          "location_type": null,
+          "i18n_name": "上海",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659598664000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "R9904",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_125",
+            "name": "上海",
+            "en_name": "Shanghai",
+            "location_type": null,
+            "i18n_name": "上海",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127923316337477901",
+        "title": "电子研发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、和电学专家密切配合，参与定义下一代AR/VR/MR产品以及元器件的EE架构；\n2、参与关键技术路径探索，研发新型显示、相机、传感器技术等关键元器件的电学需求，IC选型定制以及IP自研；\n3、和光学团队，人因工程团队、产品团队、软件团队以及生产团队密切合作，迭代打磨产品。\n4、与外部供应商密切合作，进行IC定制设计执行和验证。",
+        "requirement": "1、2023届获得硕士及以上学历，微电子、电子工程、物理学或相关技术专业优先；\n2、具有扎实的EE基础、模拟或者数字IC设计背景、数学基础，以及较强的动手、编程以及实际问题的解决能力；\n3、具有良好的沟通表达能力，以及跨团队合作能力；\n4、如有以下经验中的任意一条加分：\n -相关元器件IC设计开发经历（比如显示，相机，传感器等）；\n -熟练掌握一种或以上编程语言，例如Matlab，Python，C/C++等；\n -熟练掌握IC设计仿真软件；\n -有较强的电学理论分析能力或动手能力；有搭建电学系统或原型机的经验。",
+        "job_category": {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "en_name": "Hardware",
+          "i18n_name": "硬件",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_125",
+          "name": "上海",
+          "en_name": "Shanghai",
+          "location_type": null,
+          "i18n_name": "上海",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659599105000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "K0510",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_125",
+            "name": "上海",
+            "en_name": "Shanghai",
+            "location_type": null,
+            "i18n_name": "上海",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127924564033571079",
+        "title": "光学研发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、和光学专家密切配合，参与光学设计、仿真、量测，定义下一代AR/VR/MR产品；\n2、参与关键技术路径探索，开发引进新的光学、显示、传感技术，规划未来关键光学器件的选型、定制，以及尝试新型光学架构；\n3、和人因工程团队、产品团队、软件团队以及生产团队密切合作，迭代打磨产品。",
+        "requirement": "1、2023届获得博士学历，光学工程、电子工程、物理学或相关技术专业优先；\n2、具有扎实的光学、物理、数学基础，以及较强的动手、编程以及实际问题的解决能力；\n3、具有良好的沟通表达能力，以及跨团队合作能力；\n4、如有以下经验中的任意一条加分：\n     -熟悉主流的光学计量仪器（如工业相机，色度计，光谱仪等）；\n     -熟练掌握一种或以上编程语言，例如Python，C/C++/CUDA等；\n     -具有实际的光学设计以及实验光路搭建经验；\n     -熟练掌握光学仿真软件或计算电磁学方法（Zemax, Code V或RCWA, FDTD等）；\n     -在光学系统设计、新型显示技术、光学测试、光学元器件制造等方向有经验；\n     -有较强的光学理论分析能力或动手能力；有搭建光学系统或原型机的经验。",
+        "job_category": {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "en_name": "Hardware",
+          "i18n_name": "硬件",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_11",
+          "name": "北京",
+          "en_name": "Beijing",
+          "location_type": null,
+          "i18n_name": "北京",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659599447000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "F9859",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "location_type": null,
+            "i18n_name": "北京",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7129765729478789384",
+        "title": "Unity开发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、负责VR APP 3D相关业务迭代；\n2、负责U3D 与android 融合相关技术的突破与创新，包括不限于新的通信框架，GUI融合引擎等；\n3、负责VR app 3D场景相关技术调研，疑难攻坚，架构及性能优化等工作；\n4、持续优化性能和打磨产品细节，提高产品体验。",
+        "requirement": "1、2023届获得本科及以上学历，计算机或数学相关专业；\n2、 扎实的数据结构和算法基础；熟练使用C#/C++/Lua进行编程，有良好的编程习惯；\n3、熟悉Unity3D引擎，了解Unity项目的架构与优化技术；\n4、具有独立思考、发现问题与分析解决问题的能力，与产品经理，设计等能良好沟通，协同团队解决各类开发中的问题。",
+        "job_category": {
+          "id": "6704215957146962184",
+          "name": "客户端",
+          "en_name": "Client",
+          "i18n_name": "客户端",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_11",
+          "name": "北京",
+          "en_name": "Beijing",
+          "location_type": null,
+          "i18n_name": "北京",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1660028160000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "C9148",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "location_type": null,
+            "i18n_name": "北京",
+            "py_name": null
+          }
+        ]
+      },
+      {
+        "id": "7127530080896960781",
+        "title": "后端开发工程师-Pico",
+        "sub_title": "",
+        "description": "团队介绍：Pico是具备独立创新和研发创造能力的VR/AR团队，致力于为用户打造具有优秀体验的VR产品与内容生态，在前沿技术上有丰富的积累。我们相信VR/AR能为人们带来更丰富的感知和交互体验，改变我们感知和思考这个世界的方式。我们期待着和你，在Pico，一起探索，一起“激发创造、丰富生活”。\n\n1、负责VR业务的服务端研发；\n2、根据产品需求设计相应的技术方案，完成功能开发、部署上线和业务的线上维护；\n3、从高可用、高并发、高性能等角度进行持续的技术改进，提升服务的质量；\n4、在项目中保持和项目经理、产品经理、测试工程师、用户等积极有效沟通，准确地定位并跟踪问题，推动问题及时合理地解决。",
+        "requirement": "1、2023届获得本科及以上学历，计算机、软件工程等相关专业；\n2、熟练掌握操作系统、编译原理、数据库、网络等计算机基础知识，理解原理并有一定的实际动手经验；\n3、熟练掌握常用的算法和数据结构，能快速完成编码，有良好的编码风格；\n4、了解互联网业务的服务端研发技术栈，有实习或实际动手经验更好；\n5、积极乐观，责任心强，工作认真细致，有良好的团队沟通和协作能力。",
+        "job_category": {
+          "id": "6704215862557018372",
+          "name": "后端",
+          "en_name": "Backend",
+          "i18n_name": "后端",
+          "depth": 2,
+          "parent": {
+            "id": "6704215862603155720",
+            "name": "研发",
+            "en_name": "R\u0026D",
+            "i18n_name": "研发",
+            "depth": 1,
+            "parent": null,
+            "children": null
+          },
+          "children": null
+        },
+        "city_info": {
+          "code": "CT_125",
+          "name": "上海",
+          "en_name": "Shanghai",
+          "location_type": null,
+          "i18n_name": "上海",
+          "py_name": null
+        },
+        "recruit_type": {
+          "id": "201",
+          "name": "正式",
+          "en_name": "Regular",
+          "i18n_name": "正式",
+          "depth": 2,
+          "parent": {
+            "id": "2",
+            "name": "校招",
+            "en_name": "Campus",
+            "i18n_name": "校招",
+            "depth": 1,
+            "parent": null,
+            "children": null,
+            "active_status": 1
+          },
+          "children": null,
+          "active_status": 1
+        },
+        "publish_time": 1659507455000,
+        "job_hot_flag": 2,
+        "job_subject": {
+          "id": "7111884057764448548",
+          "name": {
+            "zh_cn": "2023届秋招项目",
+            "en_us": null,
+            "i18n": "2023届秋招项目"
+          },
+          "limit_count": 2,
+          "active_status": 1
+        },
+        "code": "I9751",
+        "department_id": null,
+        "job_function": null,
+        "job_process_id": "20000",
+        "recommend_id": null,
+        "city_list": [
+          {
+            "code": "CT_125",
+            "name": "上海",
+            "en_name": "Shanghai",
+            "location_type": null,
+            "i18n_name": "上海",
+            "py_name": null
+          }
+        ]
+      }
+    ],
+    "count": 28,
+    "extra": "{\"fe_tracking\":{\"log_id\":\"2022081120072101021214621607A1F6A1\",\"query_length\":4,\"total\":28}}"
+  },
+  "message": "ok",
+  "error": null
+}
