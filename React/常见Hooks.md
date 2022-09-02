@@ -1,5 +1,6 @@
 # 常见Hooks理解
 
+<https://segmentfault.com/a/1190000041231892>
 useCallBack
 一个缓存的回调函数
 参数:需要缓存的函数，依赖项
@@ -57,6 +58,8 @@ function Counter() {
 ## useContext
 
 useContext是一个函数，它接收一个context对象作为参数，这个对象包含了当前组件所需要的context数据。
+
+避免了react逐层通过Props传递数据
 
 创建一个 Context 对象。当 React 渲染一个订阅了这个 Context 对象的组件，这个组件会从组件树中离自身最近的那个匹配的 Provider 中读取到当前的 context 值。
 只有当组件所处的树中没有匹配到 Provider 时，其 defaultValue 参数才会生效。
