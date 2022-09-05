@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 下拉时出现一个按钮，点击回到顶部 -->
+    <div style="height: 7000px; background-color: aqua;">asd</div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // 当滚动条的垂直位置大于 20px 时，显示按钮
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        // 点击按钮，回到顶部
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.body.
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <style>
+        #myBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+
+        }
+    </style>
+</body>
+
+</html>
