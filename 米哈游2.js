@@ -1,47 +1,111 @@
 // 字符串str，找出最短的子串长度，使得该子串中包含至少k个的"mihoyo",打印出该子串的左下标和右下标，如果不存在则打印-1
+// 滑动窗口
 let str = "mihoyoyomihoyomimihoyo";
 let k = 2;
-// 1. 暴力解法
 function solution(str, k) {
   let len = str.length;
   if (len < k) return -1;
   let min = Number.MAX_SAFE_INTEGER;
   let leftIndex = 0;
   let rightIndex = 0;
+  //  找到字符串中每一个"mihoyo"的下标
+  let indexArr = [];
   for (let i = 0; i < len; i++) {
-    for (let j = i + k - 1; j < len; j++) {
-      let subStr = str.substring(i, j + 1);
-      //   判断子串中的"mihoyo"的个数是否大于k
-      let count = 0;
-      for (let m = 0; m < subStr.length; m++) {
-        if (
-          subStr[m] === "m" &&
-          subStr[m + 1] === "i" &&
-          subStr[m + 2] === "h" &&
-          subStr[m + 3] === "o" &&
-          subStr[m + 4] === "y" &&
-          subStr[m + 5] === "o"
-        ) {
-          count++;
-        }
-      }
-      if (count >= k) {
-        if (subStr.length <= min) {
-          min = subStr.length;
-          leftIndex = i;
-          rightIndex = j;
-          console.log(leftIndex, rightIndex);
-        }
-      }
+    if (
+      str[i] === "m" &&
+      str[i + 1] === "i" &&
+      str[i + 2] === "h" &&
+      str[i + 3] === "o" &&
+      str[i + 4] === "y" &&
+      str[i + 5] === "o"
+    ) {
+      indexArr.push(i);
     }
   }
-  return min === Number.MAX_SAFE_INTEGER ? -1 : [leftIndex, rightIndex];
+  //  如果不存在"mihoyo"的子串
+  if (indexArr.length < k) return -1;
+  //  如果存在"mihoyo"的子串
+  let left = 0;
+  let right = k - 1;
+  while (right < indexArr.length) {
+    let subStr = str.substring(indexArr[left], indexArr[right] + 6);
+    if (subStr.length <= min) {
+      min = subStr.length;
+      leftIndex = indexArr[left];
+      rightIndex = indexArr[right] + 5;
+    }
+    left++;
+    right++;
+  }
+  return [leftIndex, rightIndex];
 }
+
 console.log(solution(str, k));
-// 2. 滑动窗口
-// 3. 二分查找
-// 4. 动态规划
-// 5. 递归
-// 6. 回溯
-// 7. 贪心
-// 8. 分治
+
+// 考试
+// 本题为考试多行输入输出规范示例，无需提交，不计分。
+var readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+  terminal: false,
+});
+
+var ans = 0;
+var k = 0;
+var n = 0;
+var cur_line = 0;
+rl.on("line", function (line) {
+  // javascript每行数据的回调接口
+  if (cur_line === 0) {
+    // 测试用例第一行读取n
+    //     console.log(line);
+    n = parseInt(line.split(" ")[0]);
+    k = parseInt(line.split(" ")[1]);
+    //     console.log(k);
+    cur_line += 1;
+  } else {
+    //     console.log(line);
+    let str = line;
+    function solution(str, k) {
+      let len = str.length;
+      if (len < k) return -1;
+      let min = Number.MAX_SAFE_INTEGER;
+      let leftIndex = 0;
+      let rightIndex = 0;
+      //  找到字符串中每一个"mihoyo"的下标
+      let indexArr = [];
+      for (let i = 0; i < len; i++) {
+        if (
+          str[i] === "m" &&
+          str[i + 1] === "i" &&
+          str[i + 2] === "h" &&
+          str[i + 3] === "o" &&
+          str[i + 4] === "y" &&
+          str[i + 5] === "o"
+        ) {
+          indexArr.push(i);
+        }
+      }
+      //  如果不存在"mihoyo"的子串
+      if (indexArr.length < k) return -1;
+      //  如果存在"mihoyo"的子串
+      let left = 0;
+      let right = k - 1;
+      while (right < indexArr.length) {
+        let subStr = str.substring(indexArr[left], indexArr[right] + 6);
+        if (subStr.length <= min) {
+          min = subStr.length;
+          leftIndex = indexArr[left];
+          rightIndex = indexArr[right] + 5;
+        }
+        left++;
+        right++;
+      }
+      return [leftIndex, rightIndex];
+    }
+    let res = solution(str, k);
+
+    console.log(res == -1 ? -1 : res.join(" "));
+  }
+});
